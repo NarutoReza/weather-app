@@ -1,0 +1,63 @@
+.temp{
+    font-size: 55px;
+}
+
+.country{
+    font-size: 22px;
+}
+
+.humid{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.humidity{
+    display: flex;
+}
+
+.humidity img{
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.text{
+    padding-left: 15px;
+}
+
+.press{
+    display: flex;
+    justify-content: center;
+}
+
+.pressure{
+    display: flex;
+}
+
+.pressure img{
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.text2{
+    margin-top: -5px;
+    padding-left: 15px;
+}
+
+.table-responsive{
+    padding: 10px 0px 20px 0px;
+}
+
+.future{
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #6969dd #e0e0e0;
+}
+
+.forecast{
+    min-width: 150px;
+    margin-right: 10px;
+}
