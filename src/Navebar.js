@@ -74,7 +74,7 @@ function Navebar() {
                     {results[0] && results[0].map((item, index) => {
                         return(
                             <tr key={index}><td>
-                                <Link to={{ pathname: `/data/${item.name}`}}><button className='btn' onClick={() => {cookies.set('data', item)}}><a>{item.name}</a></button></Link>
+                                <Link to={{ pathname: `/data/${item.name}`}}><button className='btn' onClick={() => {cookies.set('data', item); setSearchItem('')}}><a>{item.name}</a></button></Link>
                             </td></tr>
                         )
                     })}
